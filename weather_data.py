@@ -11,7 +11,7 @@ def get_weather_forecast(api_key, city):
         print(response.text)
 
     data = response.json()
-    print(data.keys())
+    #print(data.keys())
     print(data['list'][0])
     return data
 
